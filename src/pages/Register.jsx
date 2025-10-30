@@ -9,7 +9,7 @@ export default function Register({ onRegister }) {
 
   const onSubmit = async (data) => {
   try {
-    const res = await fetch('https://taskapp-backend.onrender.com/api/auth/register', {
+    const res = await fetch(' https://taskapp-backend-wo5y.onrender.com/api/auth/register', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data),
