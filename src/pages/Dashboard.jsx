@@ -22,7 +22,7 @@ export default function Dashboard({ user, onLogout }) {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-100">
+ <div>
       {/* Sticky Navbar at the top */}
       <Navbar user={user} onLogout={onLogout} />
 

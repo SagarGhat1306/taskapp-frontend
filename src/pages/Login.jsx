@@ -30,6 +30,7 @@ const onSubmit = async (data) => {
 };
 
   return (
+   
     <div className="max-w-md mx-auto mt-20 p-6 bg-white rounded shadow">
       <h2 className="text-2xl mb-4">Login</h2>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-3">
@@ -39,5 +40,6 @@ const onSubmit = async (data) => {
       </form>
       <p className="mt-3 text-sm">New user? <a className="text-blue-600" href="/register">Register</a></p>
     </div>
+
   );
 }
